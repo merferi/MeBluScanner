@@ -64,9 +64,10 @@ class MainActivity : BaseDbActivity<ActivityMainBinding>() {
                 binding.tvReceived.setText("status: $status,voltage: ${voltage},batteryLevel: ${batteryLevel}")
             }
 
-            override fun onBuzzerStatus(status: Int) {
-                binding.tvReceived.setText("status: $status")
+            override fun onBuzzerStatus(enable: Boolean) {
+                binding.tvReceived.setText("status: $enable")
             }
+
 
             override fun onAutoShutdownTime(duration: Int) {
                 binding.tvReceived.setText("duration: $duration")
@@ -80,7 +81,7 @@ class MainActivity : BaseDbActivity<ActivityMainBinding>() {
             override fun onReconnectEnable(enable: Boolean) {
             }
 
-            override fun onContinuousScanInterval(interval: Int) {
+            override fun onContinuousScanInterval(interval: Float) {
                 binding.tvReceived.setText("interval:$interval")
             }
 

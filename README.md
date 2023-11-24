@@ -22,7 +22,7 @@
             }
 
             override fun onConnectionStateChanged(state: Int) {
-               
+              //0:disconnect 1:connecting 2:connected 3:disconnect 4:no_state               
             }
         })
 
@@ -39,20 +39,19 @@
             override fun onBatteryInfo(status: Int, voltage: Int, batteryLevel: Int) {
             }
 
-            override fun onBuzzerStatus(status: Int) {
+            override fun onBuzzerStatus(enable: Boolean) {
             }
 
             override fun onAutoShutdownTime(duration: Int) {
             }
 
             override fun onTriggerMode(mode: MeTriggerMode) {
-                //mode 0:press 1:key hold 3:continuous
             }
 
             override fun onReconnectEnable(enable: Boolean) {
             }
 
-            override fun onContinuousScanInterval(interval: Int) {
+            override fun onContinuousScanInterval(interval: Float) {
             }
 
             override fun onScanning() {
@@ -60,6 +59,7 @@
         })
 
 ## startMeSppServer
+
 __Note:__
 __Start the SPP server after applying for Bluetooth permission.__
 
@@ -88,7 +88,7 @@ __Start the SPP server after applying for Bluetooth permission.__
 * setTriggerMode:
   > MeScannerSDK.setTriggerMode(mode: MeTriggerMode)()
 * setContinuousMode:
-  > MeScannerSDK.setContinuousMode(mode: MeTriggerMode, interval: Int)
+  > MeScannerSDK.setContinuousMode(mode: MeTriggerMode, interval: Float)
 * getContinuousScanInterval
   > MeScannerSDK.getContinuousScanInterval()
 * doScan:
