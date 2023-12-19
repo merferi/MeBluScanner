@@ -7,6 +7,8 @@ import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.RecyclerView
+import com.afollestad.materialdialogs.MaterialDialog
+import com.afollestad.materialdialogs.list.listItems
 import com.drake.brv.utils.bindingAdapter
 import com.drake.brv.utils.linear
 import com.drake.brv.utils.setup
@@ -32,9 +34,11 @@ class DeviceListActivity : AppCompatActivity() {
 
             onClick(R.id.item) {
                 val model = getModel<MeBluetoothDevice>()
-                MeScannerSDK.connect(model.bluetoothDevice, ConnectMode.SPP)
-                MeScannerSDK.stopDiscover()
-                finish()
+//                MeScannerSDK.connect(model.bluetoothDevice, ConnectMode.SPP)
+//                MeScannerSDK.stopDiscover()
+//                finish()
+
+                showConnectOptions(model)
             }
 
             onLongClick(R.id.item) {
@@ -74,6 +78,21 @@ class DeviceListActivity : AppCompatActivity() {
             ContextCompat.getDrawable(context, R.drawable.ic_signal_level_0_24dp)
         } else {
             ContextCompat.getDrawable(context, R.drawable.ic_signal_unknown_24dp)
+        }
+    }
+
+    private fun showConnectOptions(meBluetoothDevice: MeBluetoothDevice) {
+        val items = arrayListOf("SPP", "BLE")
+        MaterialDialog(this).show {
+            listItems(items = items) { dialog, index, text ->
+                if (index == 0) {
+                    MeScannerSDK.connect(meBluetoothDevice.bluetoothDevice, ConnectMode.SPP)
+                } else {
+                    MeScannerSDK.connect(meBluetoothDevice.bluetoothDevice, ConnectMode.BLE)
+                }
+                MeScannerSDK.stopDiscover()
+                finish()
+            }
         }
     }
 }

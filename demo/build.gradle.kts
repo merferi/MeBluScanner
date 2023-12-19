@@ -14,8 +14,8 @@ android {
         applicationId = "com.meferi.scannerdemo"
         minSdk = 24
         targetSdk = 33
-        versionCode = 2
-        versionName = "1.1"
+        versionCode = 1002
+        versionName = "1.0.2"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
 
@@ -84,5 +84,9 @@ dependencies {
     implementation("com.github.yuzhiqiang1993:zxing:2.2.9")
 
     implementation("com.github.getActivity:TitleBar:10.5")
+
+    implementation("com.afollestad.material-dialogs:core:3.3.0")
+    implementation("com.afollestad.material-dialogs:lifecycle:3.3.0")
+    implementation("com.afollestad.material-dialogs:input:3.3.0")
 
 }
