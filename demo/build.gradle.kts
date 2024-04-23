@@ -23,10 +23,10 @@ android {
 
     signingConfigs {
         create("release") {
-            storeFile = file("msr.jks")
-            storePassword = "meferi2022"
-            keyAlias = "msrconfig"
-            keyPassword = "meferi2022"
+            storeFile = file("demo.jks")
+            storePassword = "android"
+            keyAlias = "demo"
+            keyPassword = "android"
         }
     }
 
