@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.meferi.scannerdemo-mergeDebugResources-49:/values-h320dp-port-v13/values-h320dp-port-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\JiangKun\\.gradle\\caches\\transforms-3\\22160bb32a84693e26fdd5976301a379\\transformed\\material-1.9.0\\res\\values-h320dp-port-v13\\values-h320dp-port-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "75",
+                        "endOffsets": "126"
+                    }
+                }
+            ]
+        }
+    ]
+}

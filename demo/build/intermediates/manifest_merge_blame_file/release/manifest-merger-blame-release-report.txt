@@ -1,0 +1,307 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.meferi.scannerdemo"
+4    android:versionCode="1002"
+5    android:versionName="1.0.2" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="33" />
+10
+11    <uses-feature
+11-->[ME_300R_SDK_240423(R).aar] C:\Users\JiangKun\.gradle\caches\transforms-3\401a30863eb47370504b5b5899eb643f\transformed\jetified-ME_300R_SDK_240423(R)\AndroidManifest.xml:8:5-10:35
+12        android:name="android.hardware.bluetooth"
+12-->[ME_300R_SDK_240423(R).aar] C:\Users\JiangKun\.gradle\caches\transforms-3\401a30863eb47370504b5b5899eb643f\transformed\jetified-ME_300R_SDK_240423(R)\AndroidManifest.xml:9:9-50
+13        android:required="true" />
+13-->[ME_300R_SDK_240423(R).aar] C:\Users\JiangKun\.gradle\caches\transforms-3\401a30863eb47370504b5b5899eb643f\transformed\jetified-ME_300R_SDK_240423(R)\AndroidManifest.xml:10:9-32
+14    <uses-feature
+14-->[ME_300R_SDK_240423(R).aar] C:\Users\JiangKun\.gradle\caches\transforms-3\401a30863eb47370504b5b5899eb643f\transformed\jetified-ME_300R_SDK_240423(R)\AndroidManifest.xml:11:5-13:35
+15        android:name="android.hardware.bluetooth_le"
+15-->[ME_300R_SDK_240423(R).aar] C:\Users\JiangKun\.gradle\caches\transforms-3\401a30863eb47370504b5b5899eb643f\transformed\jetified-ME_300R_SDK_240423(R)\AndroidManifest.xml:12:9-53
+16        android:required="true" />
+16-->[ME_300R_SDK_240423(R).aar] C:\Users\JiangKun\.gradle\caches\transforms-3\401a30863eb47370504b5b5899eb643f\transformed\jetified-ME_300R_SDK_240423(R)\AndroidManifest.xml:13:9-32
+17
+18    <uses-permission
+18-->[ME_300R_SDK_240423(R).aar] C:\Users\JiangKun\.gradle\caches\transforms-3\401a30863eb47370504b5b5899eb643f\transformed\jetified-ME_300R_SDK_240423(R)\AndroidManifest.xml:15:5-17:38
+19        android:name="android.permission.BLUETOOTH"
+19-->[ME_300R_SDK_240423(R).aar] C:\Users\JiangKun\.gradle\caches\transforms-3\401a30863eb47370504b5b5899eb643f\transformed\jetified-ME_300R_SDK_240423(R)\AndroidManifest.xml:16:9-52
+20        android:maxSdkVersion="30" />
+20-->[ME_300R_SDK_240423(R).aar] C:\Users\JiangKun\.gradle\caches\transforms-3\401a30863eb47370504b5b5899eb643f\transformed\jetified-ME_300R_SDK_240423(R)\AndroidManifest.xml:17:9-35
+21    <uses-permission
+21-->[ME_300R_SDK_240423(R).aar] C:\Users\JiangKun\.gradle\caches\transforms-3\401a30863eb47370504b5b5899eb643f\transformed\jetified-ME_300R_SDK_240423(R)\AndroidManifest.xml:18:5-20:38
+22        android:name="android.permission.BLUETOOTH_ADMIN"
+22-->[ME_300R_SDK_240423(R).aar] C:\Users\JiangKun\.gradle\caches\transforms-3\401a30863eb47370504b5b5899eb643f\transformed\jetified-ME_300R_SDK_240423(R)\AndroidManifest.xml:19:9-58
+23        android:maxSdkVersion="30" />
+23-->[ME_300R_SDK_240423(R).aar] C:\Users\JiangKun\.gradle\caches\transforms-3\401a30863eb47370504b5b5899eb643f\transformed\jetified-ME_300R_SDK_240423(R)\AndroidManifest.xml:20:9-35
+24    <uses-permission
+24-->[ME_300R_SDK_240423(R).aar] C:\Users\JiangKun\.gradle\caches\transforms-3\401a30863eb47370504b5b5899eb643f\transformed\jetified-ME_300R_SDK_240423(R)\AndroidManifest.xml:21:5-24:31
+25        android:name="android.permission.BLUETOOTH_SCAN"
+25-->[ME_300R_SDK_240423(R).aar] C:\Users\JiangKun\.gradle\caches\transforms-3\401a30863eb47370504b5b5899eb643f\transformed\jetified-ME_300R_SDK_240423(R)\AndroidManifest.xml:22:9-57
+26        android:usesPermissionFlags="neverForLocation" />
+26-->[ME_300R_SDK_240423(R).aar] C:\Users\JiangKun\.gradle\caches\transforms-3\401a30863eb47370504b5b5899eb643f\transformed\jetified-ME_300R_SDK_240423(R)\AndroidManifest.xml:23:9-55
+27    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+27-->[ME_300R_SDK_240423(R).aar] C:\Users\JiangKun\.gradle\caches\transforms-3\401a30863eb47370504b5b5899eb643f\transformed\jetified-ME_300R_SDK_240423(R)\AndroidManifest.xml:25:5-76
+27-->[ME_300R_SDK_240423(R).aar] C:\Users\JiangKun\.gradle\caches\transforms-3\401a30863eb47370504b5b5899eb643f\transformed\jetified-ME_300R_SDK_240423(R)\AndroidManifest.xml:25:22-73
+28    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+28-->[ME_300R_SDK_240423(R).aar] C:\Users\JiangKun\.gradle\caches\transforms-3\401a30863eb47370504b5b5899eb643f\transformed\jetified-ME_300R_SDK_240423(R)\AndroidManifest.xml:26:5-79
+28-->[ME_300R_SDK_240423(R).aar] C:\Users\JiangKun\.gradle\caches\transforms-3\401a30863eb47370504b5b5899eb643f\transformed\jetified-ME_300R_SDK_240423(R)\AndroidManifest.xml:26:22-76
+29
+30    <queries>
+30-->[com.blankj:utilcodex:1.31.1] C:\Users\JiangKun\.gradle\caches\transforms-3\df73ea5c6fb868c7da62edacfb6d1a42\transformed\jetified-utilcodex-1.31.1\AndroidManifest.xml:9:5-16:15
+31        <intent>
+31-->[com.blankj:utilcodex:1.31.1] C:\Users\JiangKun\.gradle\caches\transforms-3\df73ea5c6fb868c7da62edacfb6d1a42\transformed\jetified-utilcodex-1.31.1\AndroidManifest.xml:10:9-12:18
+32            <action android:name="android.intent.action.MAIN" />
+32-->E:\AndroidProjects\MEFERI\300R\MeBluScanner\demo\src\main\AndroidManifest.xml:24:17-69
+32-->E:\AndroidProjects\MEFERI\300R\MeBluScanner\demo\src\main\AndroidManifest.xml:24:25-66
+33        </intent>
+34        <intent>
+34-->[com.blankj:utilcodex:1.31.1] C:\Users\JiangKun\.gradle\caches\transforms-3\df73ea5c6fb868c7da62edacfb6d1a42\transformed\jetified-utilcodex-1.31.1\AndroidManifest.xml:13:9-15:18
+35            <action android:name="android.intent.action.VIEW" />
+35-->[com.blankj:utilcodex:1.31.1] C:\Users\JiangKun\.gradle\caches\transforms-3\df73ea5c6fb868c7da62edacfb6d1a42\transformed\jetified-utilcodex-1.31.1\AndroidManifest.xml:14:13-65
+35-->[com.blankj:utilcodex:1.31.1] C:\Users\JiangKun\.gradle\caches\transforms-3\df73ea5c6fb868c7da62edacfb6d1a42\transformed\jetified-utilcodex-1.31.1\AndroidManifest.xml:14:21-62
+36        </intent>
+37    </queries>
+38
+39    <permission
+39-->[androidx.core:core:1.10.1] C:\Users\JiangKun\.gradle\caches\transforms-3\ed03465c7d1c3d6360ffcdaf809f166d\transformed\core-1.10.1\AndroidManifest.xml:22:5-24:47
+40        android:name="com.meferi.scannerdemo.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+40-->[androidx.core:core:1.10.1] C:\Users\JiangKun\.gradle\caches\transforms-3\ed03465c7d1c3d6360ffcdaf809f166d\transformed\core-1.10.1\AndroidManifest.xml:23:9-81
+41        android:protectionLevel="signature" />
+41-->[androidx.core:core:1.10.1] C:\Users\JiangKun\.gradle\caches\transforms-3\ed03465c7d1c3d6360ffcdaf809f166d\transformed\core-1.10.1\AndroidManifest.xml:24:9-44
+42
+43    <uses-permission android:name="com.meferi.scannerdemo.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+43-->[androidx.core:core:1.10.1] C:\Users\JiangKun\.gradle\caches\transforms-3\ed03465c7d1c3d6360ffcdaf809f166d\transformed\core-1.10.1\AndroidManifest.xml:26:5-97
+43-->[androidx.core:core:1.10.1] C:\Users\JiangKun\.gradle\caches\transforms-3\ed03465c7d1c3d6360ffcdaf809f166d\transformed\core-1.10.1\AndroidManifest.xml:26:22-94
+44    <uses-permission android:name="android.permission.CAMERA" />
+44-->[com.github.yuzhiqiang1993:zxing:2.2.9] C:\Users\JiangKun\.gradle\caches\transforms-3\e21a0ed9b10dfb09fd8219f8ebb49e5c\transformed\jetified-zxing-2.2.9\AndroidManifest.xml:9:5-65
+44-->[com.github.yuzhiqiang1993:zxing:2.2.9] C:\Users\JiangKun\.gradle\caches\transforms-3\e21a0ed9b10dfb09fd8219f8ebb49e5c\transformed\jetified-zxing-2.2.9\AndroidManifest.xml:9:22-62
+45    <uses-permission android:name="android.permission.FLASHLIGHT" />
+45-->[com.github.yuzhiqiang1993:zxing:2.2.9] C:\Users\JiangKun\.gradle\caches\transforms-3\e21a0ed9b10dfb09fd8219f8ebb49e5c\transformed\jetified-zxing-2.2.9\AndroidManifest.xml:10:5-69
+45-->[com.github.yuzhiqiang1993:zxing:2.2.9] C:\Users\JiangKun\.gradle\caches\transforms-3\e21a0ed9b10dfb09fd8219f8ebb49e5c\transformed\jetified-zxing-2.2.9\AndroidManifest.xml:10:22-66
+46
+47    <uses-feature android:name="android.hardware.camera" />
+47-->[com.github.yuzhiqiang1993:zxing:2.2.9] C:\Users\JiangKun\.gradle\caches\transforms-3\e21a0ed9b10dfb09fd8219f8ebb49e5c\transformed\jetified-zxing-2.2.9\AndroidManifest.xml:12:5-60
+47-->[com.github.yuzhiqiang1993:zxing:2.2.9] C:\Users\JiangKun\.gradle\caches\transforms-3\e21a0ed9b10dfb09fd8219f8ebb49e5c\transformed\jetified-zxing-2.2.9\AndroidManifest.xml:12:19-57
+48    <uses-feature android:name="android.hardware.camera.autofocus" />
+48-->[com.github.yuzhiqiang1993:zxing:2.2.9] C:\Users\JiangKun\.gradle\caches\transforms-3\e21a0ed9b10dfb09fd8219f8ebb49e5c\transformed\jetified-zxing-2.2.9\AndroidManifest.xml:13:5-70
+48-->[com.github.yuzhiqiang1993:zxing:2.2.9] C:\Users\JiangKun\.gradle\caches\transforms-3\e21a0ed9b10dfb09fd8219f8ebb49e5c\transformed\jetified-zxing-2.2.9\AndroidManifest.xml:13:19-67
+49
+50    <uses-permission android:name="android.permission.VIBRATE" />
+50-->[com.github.yuzhiqiang1993:zxing:2.2.9] C:\Users\JiangKun\.gradle\caches\transforms-3\e21a0ed9b10dfb09fd8219f8ebb49e5c\transformed\jetified-zxing-2.2.9\AndroidManifest.xml:15:5-66
+50-->[com.github.yuzhiqiang1993:zxing:2.2.9] C:\Users\JiangKun\.gradle\caches\transforms-3\e21a0ed9b10dfb09fd8219f8ebb49e5c\transformed\jetified-zxing-2.2.9\AndroidManifest.xml:15:22-63
+51    <uses-permission android:name="android.permission.WAKE_LOCK" />
+51-->[com.github.yuzhiqiang1993:zxing:2.2.9] C:\Users\JiangKun\.gradle\caches\transforms-3\e21a0ed9b10dfb09fd8219f8ebb49e5c\transformed\jetified-zxing-2.2.9\AndroidManifest.xml:16:5-68
+51-->[com.github.yuzhiqiang1993:zxing:2.2.9] C:\Users\JiangKun\.gradle\caches\transforms-3\e21a0ed9b10dfb09fd8219f8ebb49e5c\transformed\jetified-zxing-2.2.9\AndroidManifest.xml:16:22-65
+52    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+52-->[com.github.yuzhiqiang1993:zxing:2.2.9] C:\Users\JiangKun\.gradle\caches\transforms-3\e21a0ed9b10dfb09fd8219f8ebb49e5c\transformed\jetified-zxing-2.2.9\AndroidManifest.xml:17:5-80
+52-->[com.github.yuzhiqiang1993:zxing:2.2.9] C:\Users\JiangKun\.gradle\caches\transforms-3\e21a0ed9b10dfb09fd8219f8ebb49e5c\transformed\jetified-zxing-2.2.9\AndroidManifest.xml:17:22-77
+53    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+53-->[com.github.yuzhiqiang1993:zxing:2.2.9] C:\Users\JiangKun\.gradle\caches\transforms-3\e21a0ed9b10dfb09fd8219f8ebb49e5c\transformed\jetified-zxing-2.2.9\AndroidManifest.xml:18:5-81
+53-->[com.github.yuzhiqiang1993:zxing:2.2.9] C:\Users\JiangKun\.gradle\caches\transforms-3\e21a0ed9b10dfb09fd8219f8ebb49e5c\transformed\jetified-zxing-2.2.9\AndroidManifest.xml:18:22-78
+54
+55    <application
+55-->E:\AndroidProjects\MEFERI\300R\MeBluScanner\demo\src\main\AndroidManifest.xml:5:5-29:19
+56        android:name="com.meferi.scannerdemo.App"
+56-->E:\AndroidProjects\MEFERI\300R\MeBluScanner\demo\src\main\AndroidManifest.xml:6:9-28
+57        android:allowBackup="true"
+57-->E:\AndroidProjects\MEFERI\300R\MeBluScanner\demo\src\main\AndroidManifest.xml:7:9-35
+58        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+58-->[androidx.core:core:1.10.1] C:\Users\JiangKun\.gradle\caches\transforms-3\ed03465c7d1c3d6360ffcdaf809f166d\transformed\core-1.10.1\AndroidManifest.xml:28:18-86
+59        android:dataExtractionRules="@xml/data_extraction_rules"
+59-->E:\AndroidProjects\MEFERI\300R\MeBluScanner\demo\src\main\AndroidManifest.xml:8:9-65
+60        android:extractNativeLibs="false"
+61        android:fullBackupContent="@xml/backup_rules"
+61-->E:\AndroidProjects\MEFERI\300R\MeBluScanner\demo\src\main\AndroidManifest.xml:9:9-54
+62        android:icon="@mipmap/ic_launcher"
+62-->E:\AndroidProjects\MEFERI\300R\MeBluScanner\demo\src\main\AndroidManifest.xml:10:9-43
+63        android:label="@string/app_name"
+63-->E:\AndroidProjects\MEFERI\300R\MeBluScanner\demo\src\main\AndroidManifest.xml:11:9-41
+64        android:roundIcon="@mipmap/ic_launcher_round"
+64-->E:\AndroidProjects\MEFERI\300R\MeBluScanner\demo\src\main\AndroidManifest.xml:12:9-54
+65        android:supportsRtl="true"
+65-->E:\AndroidProjects\MEFERI\300R\MeBluScanner\demo\src\main\AndroidManifest.xml:13:9-35
+66        android:theme="@style/Theme.ScannerDemo" >
+66-->E:\AndroidProjects\MEFERI\300R\MeBluScanner\demo\src\main\AndroidManifest.xml:14:9-49
+67        <activity
+67-->E:\AndroidProjects\MEFERI\300R\MeBluScanner\demo\src\main\AndroidManifest.xml:17:9-19:40
+68            android:name="com.meferi.scannerdemo.DeviceListActivity"
+68-->E:\AndroidProjects\MEFERI\300R\MeBluScanner\demo\src\main\AndroidManifest.xml:18:13-47
+69            android:exported="false" />
+69-->E:\AndroidProjects\MEFERI\300R\MeBluScanner\demo\src\main\AndroidManifest.xml:19:13-37
+70        <activity
+70-->E:\AndroidProjects\MEFERI\300R\MeBluScanner\demo\src\main\AndroidManifest.xml:20:9-28:20
+71            android:name="com.meferi.scannerdemo.MainActivity"
+71-->E:\AndroidProjects\MEFERI\300R\MeBluScanner\demo\src\main\AndroidManifest.xml:21:13-41
+72            android:exported="true" >
+72-->E:\AndroidProjects\MEFERI\300R\MeBluScanner\demo\src\main\AndroidManifest.xml:22:13-36
+73            <intent-filter>
+73-->E:\AndroidProjects\MEFERI\300R\MeBluScanner\demo\src\main\AndroidManifest.xml:23:13-27:29
+74                <action android:name="android.intent.action.MAIN" />
+74-->E:\AndroidProjects\MEFERI\300R\MeBluScanner\demo\src\main\AndroidManifest.xml:24:17-69
+74-->E:\AndroidProjects\MEFERI\300R\MeBluScanner\demo\src\main\AndroidManifest.xml:24:25-66
+75
+76                <category android:name="android.intent.category.LAUNCHER" />
+76-->E:\AndroidProjects\MEFERI\300R\MeBluScanner\demo\src\main\AndroidManifest.xml:26:17-77
+76-->E:\AndroidProjects\MEFERI\300R\MeBluScanner\demo\src\main\AndroidManifest.xml:26:27-74
+77            </intent-filter>
+78        </activity>
+79
+80        <service
+80-->[ME_300R_SDK_240423(R).aar] C:\Users\JiangKun\.gradle\caches\transforms-3\401a30863eb47370504b5b5899eb643f\transformed\jetified-ME_300R_SDK_240423(R)\AndroidManifest.xml:29:9-31:40
+81            android:name="com.meferi.btscannersdk.connect.ble.BtLeService"
+81-->[ME_300R_SDK_240423(R).aar] C:\Users\JiangKun\.gradle\caches\transforms-3\401a30863eb47370504b5b5899eb643f\transformed\jetified-ME_300R_SDK_240423(R)\AndroidManifest.xml:30:13-75
+82            android:exported="false" />
+82-->[ME_300R_SDK_240423(R).aar] C:\Users\JiangKun\.gradle\caches\transforms-3\401a30863eb47370504b5b5899eb643f\transformed\jetified-ME_300R_SDK_240423(R)\AndroidManifest.xml:31:13-37
+83        <service
+83-->[ME_300R_SDK_240423(R).aar] C:\Users\JiangKun\.gradle\caches\transforms-3\401a30863eb47370504b5b5899eb643f\transformed\jetified-ME_300R_SDK_240423(R)\AndroidManifest.xml:32:9-34:40
+84            android:name="com.meferi.btscannersdk.connect.spp.BtSppService"
+84-->[ME_300R_SDK_240423(R).aar] C:\Users\JiangKun\.gradle\caches\transforms-3\401a30863eb47370504b5b5899eb643f\transformed\jetified-ME_300R_SDK_240423(R)\AndroidManifest.xml:33:13-76
+85            android:exported="false" />
+85-->[ME_300R_SDK_240423(R).aar] C:\Users\JiangKun\.gradle\caches\transforms-3\401a30863eb47370504b5b5899eb643f\transformed\jetified-ME_300R_SDK_240423(R)\AndroidManifest.xml:34:13-37
+86        <service
+86-->[ME_300R_SDK_240423(R).aar] C:\Users\JiangKun\.gradle\caches\transforms-3\401a30863eb47370504b5b5899eb643f\transformed\jetified-ME_300R_SDK_240423(R)\AndroidManifest.xml:35:9-37:40
+87            android:name="com.meferi.btscannersdk.connect.spp.BtSppServerService"
+87-->[ME_300R_SDK_240423(R).aar] C:\Users\JiangKun\.gradle\caches\transforms-3\401a30863eb47370504b5b5899eb643f\transformed\jetified-ME_300R_SDK_240423(R)\AndroidManifest.xml:36:13-82
+88            android:exported="false" />
+88-->[ME_300R_SDK_240423(R).aar] C:\Users\JiangKun\.gradle\caches\transforms-3\401a30863eb47370504b5b5899eb643f\transformed\jetified-ME_300R_SDK_240423(R)\AndroidManifest.xml:37:13-37
+89
+90        <activity
+90-->[com.blankj:utilcodex:1.31.1] C:\Users\JiangKun\.gradle\caches\transforms-3\df73ea5c6fb868c7da62edacfb6d1a42\transformed\jetified-utilcodex-1.31.1\AndroidManifest.xml:19:9-24:75
+91            android:name="com.blankj.utilcode.util.UtilsTransActivity4MainProcess"
+91-->[com.blankj:utilcodex:1.31.1] C:\Users\JiangKun\.gradle\caches\transforms-3\df73ea5c6fb868c7da62edacfb6d1a42\transformed\jetified-utilcodex-1.31.1\AndroidManifest.xml:20:13-83
+92            android:configChanges="orientation|keyboardHidden|screenSize"
+92-->[com.blankj:utilcodex:1.31.1] C:\Users\JiangKun\.gradle\caches\transforms-3\df73ea5c6fb868c7da62edacfb6d1a42\transformed\jetified-utilcodex-1.31.1\AndroidManifest.xml:21:13-74
+93            android:exported="false"
+93-->[com.blankj:utilcodex:1.31.1] C:\Users\JiangKun\.gradle\caches\transforms-3\df73ea5c6fb868c7da62edacfb6d1a42\transformed\jetified-utilcodex-1.31.1\AndroidManifest.xml:22:13-37
+94            android:theme="@style/ActivityTranslucent"
+94-->[com.blankj:utilcodex:1.31.1] C:\Users\JiangKun\.gradle\caches\transforms-3\df73ea5c6fb868c7da62edacfb6d1a42\transformed\jetified-utilcodex-1.31.1\AndroidManifest.xml:23:13-55
+95            android:windowSoftInputMode="stateHidden|stateAlwaysHidden" />
+95-->[com.blankj:utilcodex:1.31.1] C:\Users\JiangKun\.gradle\caches\transforms-3\df73ea5c6fb868c7da62edacfb6d1a42\transformed\jetified-utilcodex-1.31.1\AndroidManifest.xml:24:13-72
+96        <activity
+96-->[com.blankj:utilcodex:1.31.1] C:\Users\JiangKun\.gradle\caches\transforms-3\df73ea5c6fb868c7da62edacfb6d1a42\transformed\jetified-utilcodex-1.31.1\AndroidManifest.xml:25:9-31:75
+97            android:name="com.blankj.utilcode.util.UtilsTransActivity"
+97-->[com.blankj:utilcodex:1.31.1] C:\Users\JiangKun\.gradle\caches\transforms-3\df73ea5c6fb868c7da62edacfb6d1a42\transformed\jetified-utilcodex-1.31.1\AndroidManifest.xml:26:13-71
+98            android:configChanges="orientation|keyboardHidden|screenSize"
+98-->[com.blankj:utilcodex:1.31.1] C:\Users\JiangKun\.gradle\caches\transforms-3\df73ea5c6fb868c7da62edacfb6d1a42\transformed\jetified-utilcodex-1.31.1\AndroidManifest.xml:27:13-74
+99            android:exported="false"
+99-->[com.blankj:utilcodex:1.31.1] C:\Users\JiangKun\.gradle\caches\transforms-3\df73ea5c6fb868c7da62edacfb6d1a42\transformed\jetified-utilcodex-1.31.1\AndroidManifest.xml:28:13-37
+100            android:multiprocess="true"
+100-->[com.blankj:utilcodex:1.31.1] C:\Users\JiangKun\.gradle\caches\transforms-3\df73ea5c6fb868c7da62edacfb6d1a42\transformed\jetified-utilcodex-1.31.1\AndroidManifest.xml:29:13-40
+101            android:theme="@style/ActivityTranslucent"
+101-->[com.blankj:utilcodex:1.31.1] C:\Users\JiangKun\.gradle\caches\transforms-3\df73ea5c6fb868c7da62edacfb6d1a42\transformed\jetified-utilcodex-1.31.1\AndroidManifest.xml:30:13-55
+102            android:windowSoftInputMode="stateHidden|stateAlwaysHidden" />
+102-->[com.blankj:utilcodex:1.31.1] C:\Users\JiangKun\.gradle\caches\transforms-3\df73ea5c6fb868c7da62edacfb6d1a42\transformed\jetified-utilcodex-1.31.1\AndroidManifest.xml:31:13-72
+103
+104        <provider
+104-->[com.blankj:utilcodex:1.31.1] C:\Users\JiangKun\.gradle\caches\transforms-3\df73ea5c6fb868c7da62edacfb6d1a42\transformed\jetified-utilcodex-1.31.1\AndroidManifest.xml:33:9-41:20
+105            android:name="com.blankj.utilcode.util.UtilsFileProvider"
+105-->[com.blankj:utilcodex:1.31.1] C:\Users\JiangKun\.gradle\caches\transforms-3\df73ea5c6fb868c7da62edacfb6d1a42\transformed\jetified-utilcodex-1.31.1\AndroidManifest.xml:34:13-70
+106            android:authorities="com.meferi.scannerdemo.utilcode.fileprovider"
+106-->[com.blankj:utilcodex:1.31.1] C:\Users\JiangKun\.gradle\caches\transforms-3\df73ea5c6fb868c7da62edacfb6d1a42\transformed\jetified-utilcodex-1.31.1\AndroidManifest.xml:35:13-73
+107            android:exported="false"
+107-->[com.blankj:utilcodex:1.31.1] C:\Users\JiangKun\.gradle\caches\transforms-3\df73ea5c6fb868c7da62edacfb6d1a42\transformed\jetified-utilcodex-1.31.1\AndroidManifest.xml:36:13-37
+108            android:grantUriPermissions="true" >
+108-->[com.blankj:utilcodex:1.31.1] C:\Users\JiangKun\.gradle\caches\transforms-3\df73ea5c6fb868c7da62edacfb6d1a42\transformed\jetified-utilcodex-1.31.1\AndroidManifest.xml:37:13-47
+109            <meta-data
+109-->[com.blankj:utilcodex:1.31.1] C:\Users\JiangKun\.gradle\caches\transforms-3\df73ea5c6fb868c7da62edacfb6d1a42\transformed\jetified-utilcodex-1.31.1\AndroidManifest.xml:38:13-40:68
+110                android:name="android.support.FILE_PROVIDER_PATHS"
+110-->[com.blankj:utilcodex:1.31.1] C:\Users\JiangKun\.gradle\caches\transforms-3\df73ea5c6fb868c7da62edacfb6d1a42\transformed\jetified-utilcodex-1.31.1\AndroidManifest.xml:39:17-67
+111                android:resource="@xml/util_code_provider_paths" />
+111-->[com.blankj:utilcodex:1.31.1] C:\Users\JiangKun\.gradle\caches\transforms-3\df73ea5c6fb868c7da62edacfb6d1a42\transformed\jetified-utilcodex-1.31.1\AndroidManifest.xml:40:17-65
+112        </provider>
+113
+114        <service
+114-->[com.blankj:utilcodex:1.31.1] C:\Users\JiangKun\.gradle\caches\transforms-3\df73ea5c6fb868c7da62edacfb6d1a42\transformed\jetified-utilcodex-1.31.1\AndroidManifest.xml:43:9-49:19
+115            android:name="com.blankj.utilcode.util.MessengerUtils$ServerService"
+115-->[com.blankj:utilcodex:1.31.1] C:\Users\JiangKun\.gradle\caches\transforms-3\df73ea5c6fb868c7da62edacfb6d1a42\transformed\jetified-utilcodex-1.31.1\AndroidManifest.xml:44:13-81
+116            android:exported="false" >
+116-->[com.blankj:utilcodex:1.31.1] C:\Users\JiangKun\.gradle\caches\transforms-3\df73ea5c6fb868c7da62edacfb6d1a42\transformed\jetified-utilcodex-1.31.1\AndroidManifest.xml:45:13-37
+117            <intent-filter>
+117-->[com.blankj:utilcodex:1.31.1] C:\Users\JiangKun\.gradle\caches\transforms-3\df73ea5c6fb868c7da62edacfb6d1a42\transformed\jetified-utilcodex-1.31.1\AndroidManifest.xml:46:13-48:29
+118                <action android:name="com.meferi.scannerdemo.messenger" />
+118-->[com.blankj:utilcodex:1.31.1] C:\Users\JiangKun\.gradle\caches\transforms-3\df73ea5c6fb868c7da62edacfb6d1a42\transformed\jetified-utilcodex-1.31.1\AndroidManifest.xml:47:17-69
+118-->[com.blankj:utilcodex:1.31.1] C:\Users\JiangKun\.gradle\caches\transforms-3\df73ea5c6fb868c7da62edacfb6d1a42\transformed\jetified-utilcodex-1.31.1\AndroidManifest.xml:47:25-66
+119            </intent-filter>
+120        </service>
+121
+122        <provider
+122-->[androidx.emoji2:emoji2:1.2.0] C:\Users\JiangKun\.gradle\caches\transforms-3\dd31e9661266e4d7c8c97f18d3bfa40f\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+123            android:name="androidx.startup.InitializationProvider"
+123-->[androidx.emoji2:emoji2:1.2.0] C:\Users\JiangKun\.gradle\caches\transforms-3\dd31e9661266e4d7c8c97f18d3bfa40f\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+124            android:authorities="com.meferi.scannerdemo.androidx-startup"
+124-->[androidx.emoji2:emoji2:1.2.0] C:\Users\JiangKun\.gradle\caches\transforms-3\dd31e9661266e4d7c8c97f18d3bfa40f\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+125            android:exported="false" >
+125-->[androidx.emoji2:emoji2:1.2.0] C:\Users\JiangKun\.gradle\caches\transforms-3\dd31e9661266e4d7c8c97f18d3bfa40f\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+126            <meta-data
+126-->[androidx.emoji2:emoji2:1.2.0] C:\Users\JiangKun\.gradle\caches\transforms-3\dd31e9661266e4d7c8c97f18d3bfa40f\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+127                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+127-->[androidx.emoji2:emoji2:1.2.0] C:\Users\JiangKun\.gradle\caches\transforms-3\dd31e9661266e4d7c8c97f18d3bfa40f\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+128                android:value="androidx.startup" />
+128-->[androidx.emoji2:emoji2:1.2.0] C:\Users\JiangKun\.gradle\caches\transforms-3\dd31e9661266e4d7c8c97f18d3bfa40f\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+129            <meta-data
+129-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\JiangKun\.gradle\caches\transforms-3\48435566db38dfb3b9c08401f414c1cf\transformed\jetified-lifecycle-process-2.6.1\AndroidManifest.xml:29:13-31:52
+130                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+130-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\JiangKun\.gradle\caches\transforms-3\48435566db38dfb3b9c08401f414c1cf\transformed\jetified-lifecycle-process-2.6.1\AndroidManifest.xml:30:17-78
+131                android:value="androidx.startup" />
+131-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\JiangKun\.gradle\caches\transforms-3\48435566db38dfb3b9c08401f414c1cf\transformed\jetified-lifecycle-process-2.6.1\AndroidManifest.xml:31:17-49
+132            <meta-data
+132-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\JiangKun\.gradle\caches\transforms-3\e37eeda3eb986cfe9a39065a694b0b99\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+133                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+133-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\JiangKun\.gradle\caches\transforms-3\e37eeda3eb986cfe9a39065a694b0b99\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+134                android:value="androidx.startup" />
+134-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\JiangKun\.gradle\caches\transforms-3\e37eeda3eb986cfe9a39065a694b0b99\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+135        </provider>
+136
+137        <receiver
+137-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\JiangKun\.gradle\caches\transforms-3\e37eeda3eb986cfe9a39065a694b0b99\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+138            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+138-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\JiangKun\.gradle\caches\transforms-3\e37eeda3eb986cfe9a39065a694b0b99\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+139            android:directBootAware="false"
+139-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\JiangKun\.gradle\caches\transforms-3\e37eeda3eb986cfe9a39065a694b0b99\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+140            android:enabled="true"
+140-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\JiangKun\.gradle\caches\transforms-3\e37eeda3eb986cfe9a39065a694b0b99\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+141            android:exported="true"
+141-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\JiangKun\.gradle\caches\transforms-3\e37eeda3eb986cfe9a39065a694b0b99\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+142            android:permission="android.permission.DUMP" >
+142-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\JiangKun\.gradle\caches\transforms-3\e37eeda3eb986cfe9a39065a694b0b99\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+143            <intent-filter>
+143-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\JiangKun\.gradle\caches\transforms-3\e37eeda3eb986cfe9a39065a694b0b99\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+144                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+144-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\JiangKun\.gradle\caches\transforms-3\e37eeda3eb986cfe9a39065a694b0b99\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+144-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\JiangKun\.gradle\caches\transforms-3\e37eeda3eb986cfe9a39065a694b0b99\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+145            </intent-filter>
+146            <intent-filter>
+146-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\JiangKun\.gradle\caches\transforms-3\e37eeda3eb986cfe9a39065a694b0b99\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+147                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+147-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\JiangKun\.gradle\caches\transforms-3\e37eeda3eb986cfe9a39065a694b0b99\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+147-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\JiangKun\.gradle\caches\transforms-3\e37eeda3eb986cfe9a39065a694b0b99\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+148            </intent-filter>
+149            <intent-filter>
+149-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\JiangKun\.gradle\caches\transforms-3\e37eeda3eb986cfe9a39065a694b0b99\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+150                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+150-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\JiangKun\.gradle\caches\transforms-3\e37eeda3eb986cfe9a39065a694b0b99\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+150-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\JiangKun\.gradle\caches\transforms-3\e37eeda3eb986cfe9a39065a694b0b99\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+151            </intent-filter>
+152            <intent-filter>
+152-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\JiangKun\.gradle\caches\transforms-3\e37eeda3eb986cfe9a39065a694b0b99\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+153                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+153-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\JiangKun\.gradle\caches\transforms-3\e37eeda3eb986cfe9a39065a694b0b99\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+153-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\JiangKun\.gradle\caches\transforms-3\e37eeda3eb986cfe9a39065a694b0b99\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+154            </intent-filter>
+155        </receiver>
+156
+157        <activity
+157-->[com.github.yuzhiqiang1993:zxing:2.2.9] C:\Users\JiangKun\.gradle\caches\transforms-3\e21a0ed9b10dfb09fd8219f8ebb49e5c\transformed\jetified-zxing-2.2.9\AndroidManifest.xml:21:9-26:67
+158            android:name="com.yzq.zxinglibrary.android.CaptureActivity"
+158-->[com.github.yuzhiqiang1993:zxing:2.2.9] C:\Users\JiangKun\.gradle\caches\transforms-3\e21a0ed9b10dfb09fd8219f8ebb49e5c\transformed\jetified-zxing-2.2.9\AndroidManifest.xml:22:13-72
+159            android:configChanges="orientation|screenSize"
+159-->[com.github.yuzhiqiang1993:zxing:2.2.9] C:\Users\JiangKun\.gradle\caches\transforms-3\e21a0ed9b10dfb09fd8219f8ebb49e5c\transformed\jetified-zxing-2.2.9\AndroidManifest.xml:23:13-59
+160            android:screenOrientation="portrait"
+160-->[com.github.yuzhiqiang1993:zxing:2.2.9] C:\Users\JiangKun\.gradle\caches\transforms-3\e21a0ed9b10dfb09fd8219f8ebb49e5c\transformed\jetified-zxing-2.2.9\AndroidManifest.xml:24:13-49
+161            android:theme="@style/Theme.AppCompat.NoActionBar"
+161-->[com.github.yuzhiqiang1993:zxing:2.2.9] C:\Users\JiangKun\.gradle\caches\transforms-3\e21a0ed9b10dfb09fd8219f8ebb49e5c\transformed\jetified-zxing-2.2.9\AndroidManifest.xml:25:13-63
+162            android:windowSoftInputMode="adjustPan|stateHidden" />
+162-->[com.github.yuzhiqiang1993:zxing:2.2.9] C:\Users\JiangKun\.gradle\caches\transforms-3\e21a0ed9b10dfb09fd8219f8ebb49e5c\transformed\jetified-zxing-2.2.9\AndroidManifest.xml:26:13-64
+163    </application>
+164
+165</manifest>
