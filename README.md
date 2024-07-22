@@ -26,7 +26,11 @@
 
 ## Initialization:
 
-    MeScannerSDK.initialize(this, BuildConfig.DEBUG)
+    MeScannerSDK.initialize(this)
+
+## SetBroadCastCfg
+
+    MeScannerSDK.setBroadCastCfg(action: String, extName: String)
 
 ## getVersion
 
