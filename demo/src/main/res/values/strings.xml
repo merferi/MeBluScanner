@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MeBluScannerSdk</string>
+    <string name="battery_status">Battery Status</string>
+    <string name="vibrate">Vibrate</string>
+    <string name="beep">Beep</string>
+    <string name="led_red">LED(red)</string>
+    <string name="led_green">LED(green)</string>
+    <string name="led_blue">LED(blue)</string>
+    <string name="scan">Scan</string>
+    <string name="firmware_version">Firmware Version:</string>
+</resources>
