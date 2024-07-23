@@ -81,6 +81,7 @@ dependencies {
     //utilcodex
     implementation("com.blankj:utilcodex:1.31.1")
 
+    //zxing
     implementation("com.github.yuzhiqiang1993:zxing:2.2.9")
 
     implementation("com.github.getActivity:TitleBar:10.5")

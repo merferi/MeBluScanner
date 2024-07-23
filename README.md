@@ -26,15 +26,19 @@
 
 ## Initialization:
 
-    MeScannerSDK.initialize(this)
+    MeScannerSDK.initialize(application: Application)
 
 ## SetBroadCastCfg
 
     MeScannerSDK.setBroadCastCfg(action: String, extName: String)
 
+    MeScannerSDK.getBroadCastAction():String
+
+    MeScannerSDK.getBroadCastExtName():String
+
 ## getVersion
 
-    MeScannerSDK.getVersion()
+    MeScannerSDK.getVersion():String
 
 ## setConnectionListener
 

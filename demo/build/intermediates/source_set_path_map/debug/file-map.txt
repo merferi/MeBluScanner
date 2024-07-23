@@ -26,11 +26,11 @@ com.meferi.scannerdemo-jetified-lifecycle-service-2.6.1-24 C:\Users\JiangKun\.gr
 com.meferi.scannerdemo-lifecycle-livedata-2.6.1-25 C:\Users\JiangKun\.gradle\caches\transforms-3\7b380669489f565b533d7bc1474c59cb\transformed\lifecycle-livedata-2.6.1\res
 com.meferi.scannerdemo-jetified-fragment-ktx-1.6.1-26 C:\Users\JiangKun\.gradle\caches\transforms-3\7f4418382896c24874155609c9c89c32\transformed\jetified-fragment-ktx-1.6.1\res
 com.meferi.scannerdemo-jetified-activity-ktx-1.7.2-27 C:\Users\JiangKun\.gradle\caches\transforms-3\822075475a32050a661147ccdca998d8\transformed\jetified-activity-ktx-1.7.2\res
-com.meferi.scannerdemo-jetified-refresh-header-material-2.0.5-28 C:\Users\JiangKun\.gradle\caches\transforms-3\88d7b7d5622405ecca57d2bd173a191f\transformed\jetified-refresh-header-material-2.0.5\res
-com.meferi.scannerdemo-jetified-savedstate-ktx-1.2.1-29 C:\Users\JiangKun\.gradle\caches\transforms-3\8b09cb343412e60b6801a20b27cfe2c1\transformed\jetified-savedstate-ktx-1.2.1\res
-com.meferi.scannerdemo-databinding-runtime-8.1.0-30 C:\Users\JiangKun\.gradle\caches\transforms-3\91e5ee95edd4c5059c222f58767e2c71\transformed\databinding-runtime-8.1.0\res
-com.meferi.scannerdemo-jetified-refresh-footer-classics-2.0.5-31 C:\Users\JiangKun\.gradle\caches\transforms-3\93c0a2c183c20cdf3bbc2ffa3a1d9fb2\transformed\jetified-refresh-footer-classics-2.0.5\res
-com.meferi.scannerdemo-jetified-me_bt_scanner_sdk_external_23121917(R)-32 C:\Users\JiangKun\.gradle\caches\transforms-3\9a3cbcb76d9059452edf34a1fdd11944\transformed\jetified-me_bt_scanner_sdk_external_23121917(R)\res
+com.meferi.scannerdemo-jetified-ME_300R_SDK_240723(R)-28 C:\Users\JiangKun\.gradle\caches\transforms-3\83f7ec706309e937939ae562ffbfc380\transformed\jetified-ME_300R_SDK_240723(R)\res
+com.meferi.scannerdemo-jetified-refresh-header-material-2.0.5-29 C:\Users\JiangKun\.gradle\caches\transforms-3\88d7b7d5622405ecca57d2bd173a191f\transformed\jetified-refresh-header-material-2.0.5\res
+com.meferi.scannerdemo-jetified-savedstate-ktx-1.2.1-30 C:\Users\JiangKun\.gradle\caches\transforms-3\8b09cb343412e60b6801a20b27cfe2c1\transformed\jetified-savedstate-ktx-1.2.1\res
+com.meferi.scannerdemo-databinding-runtime-8.1.0-31 C:\Users\JiangKun\.gradle\caches\transforms-3\91e5ee95edd4c5059c222f58767e2c71\transformed\databinding-runtime-8.1.0\res
+com.meferi.scannerdemo-jetified-refresh-footer-classics-2.0.5-32 C:\Users\JiangKun\.gradle\caches\transforms-3\93c0a2c183c20cdf3bbc2ffa3a1d9fb2\transformed\jetified-refresh-footer-classics-2.0.5\res
 com.meferi.scannerdemo-transition-1.2.0-33 C:\Users\JiangKun\.gradle\caches\transforms-3\9bf4a2b39ec164bd9eb0fe8b8323bb0d\transformed\transition-1.2.0\res
 com.meferi.scannerdemo-cardview-1.0.0-34 C:\Users\JiangKun\.gradle\caches\transforms-3\a89c62a433f23b13d23d7c96b0319ec7\transformed\cardview-1.0.0\res
 com.meferi.scannerdemo-jetified-emoji2-1.2.0-35 C:\Users\JiangKun\.gradle\caches\transforms-3\dd31e9661266e4d7c8c97f18d3bfa40f\transformed\jetified-emoji2-1.2.0\res

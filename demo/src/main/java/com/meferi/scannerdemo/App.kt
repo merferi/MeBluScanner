@@ -31,11 +31,16 @@ class App : Application() {
         BRV.modelId = BR.data
 
         MeScannerSDK.initialize(this)
-        MeScannerSDK.setBroadCastCfg("android.intent.action.ME_OUTPUT_ACTION", "data")
+//        MeScannerSDK.setBroadCastCfg("android.intent.action.ME_OUTPUT_ACTION", "data")
         MeScannerSDK.startMeSppServer()
         Log.e("SDK Version", "${MeScannerSDK.getVersion()}")
 
+        Log.e("BroadCast Action:", "${MeScannerSDK.getBroadcastAction()}")
+        Log.e("BroadCast ExtName", "${MeScannerSDK.getBroadcastExtName()}")
+
         val intentFilter = IntentFilter("android.intent.action.ME_OUTPUT_ACTION")
         ContextCompat.registerReceiver(this, broadcastReceiver, intentFilter, ContextCompat.RECEIVER_EXPORTED)
+
+
     }
 }
