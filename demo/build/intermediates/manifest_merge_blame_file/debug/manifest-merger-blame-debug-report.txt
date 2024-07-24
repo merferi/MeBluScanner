@@ -9,42 +9,42 @@
 9        android:targetSdkVersion="33" />
 10
 11    <uses-feature
-11-->[ME_300R_SDK_240723(R).aar] C:\Users\JiangKun\.gradle\caches\transforms-3\83f7ec706309e937939ae562ffbfc380\transformed\jetified-ME_300R_SDK_240723(R)\AndroidManifest.xml:8:5-10:35
+11-->[ME_300R_SDK_240724(R).aar] C:\Users\JiangKun\.gradle\caches\transforms-3\3c860b84cf62732ddf2e020052fdb310\transformed\jetified-ME_300R_SDK_240724(R)\AndroidManifest.xml:8:5-10:35
 12        android:name="android.hardware.bluetooth"
-12-->[ME_300R_SDK_240723(R).aar] C:\Users\JiangKun\.gradle\caches\transforms-3\83f7ec706309e937939ae562ffbfc380\transformed\jetified-ME_300R_SDK_240723(R)\AndroidManifest.xml:9:9-50
+12-->[ME_300R_SDK_240724(R).aar] C:\Users\JiangKun\.gradle\caches\transforms-3\3c860b84cf62732ddf2e020052fdb310\transformed\jetified-ME_300R_SDK_240724(R)\AndroidManifest.xml:9:9-50
 13        android:required="true" />
-13-->[ME_300R_SDK_240723(R).aar] C:\Users\JiangKun\.gradle\caches\transforms-3\83f7ec706309e937939ae562ffbfc380\transformed\jetified-ME_300R_SDK_240723(R)\AndroidManifest.xml:10:9-32
+13-->[ME_300R_SDK_240724(R).aar] C:\Users\JiangKun\.gradle\caches\transforms-3\3c860b84cf62732ddf2e020052fdb310\transformed\jetified-ME_300R_SDK_240724(R)\AndroidManifest.xml:10:9-32
 14    <uses-feature
-14-->[ME_300R_SDK_240723(R).aar] C:\Users\JiangKun\.gradle\caches\transforms-3\83f7ec706309e937939ae562ffbfc380\transformed\jetified-ME_300R_SDK_240723(R)\AndroidManifest.xml:11:5-13:35
+14-->[ME_300R_SDK_240724(R).aar] C:\Users\JiangKun\.gradle\caches\transforms-3\3c860b84cf62732ddf2e020052fdb310\transformed\jetified-ME_300R_SDK_240724(R)\AndroidManifest.xml:11:5-13:35
 15        android:name="android.hardware.bluetooth_le"
-15-->[ME_300R_SDK_240723(R).aar] C:\Users\JiangKun\.gradle\caches\transforms-3\83f7ec706309e937939ae562ffbfc380\transformed\jetified-ME_300R_SDK_240723(R)\AndroidManifest.xml:12:9-53
+15-->[ME_300R_SDK_240724(R).aar] C:\Users\JiangKun\.gradle\caches\transforms-3\3c860b84cf62732ddf2e020052fdb310\transformed\jetified-ME_300R_SDK_240724(R)\AndroidManifest.xml:12:9-53
 16        android:required="true" />
-16-->[ME_300R_SDK_240723(R).aar] C:\Users\JiangKun\.gradle\caches\transforms-3\83f7ec706309e937939ae562ffbfc380\transformed\jetified-ME_300R_SDK_240723(R)\AndroidManifest.xml:13:9-32
+16-->[ME_300R_SDK_240724(R).aar] C:\Users\JiangKun\.gradle\caches\transforms-3\3c860b84cf62732ddf2e020052fdb310\transformed\jetified-ME_300R_SDK_240724(R)\AndroidManifest.xml:13:9-32
 17
 18    <uses-permission
-18-->[ME_300R_SDK_240723(R).aar] C:\Users\JiangKun\.gradle\caches\transforms-3\83f7ec706309e937939ae562ffbfc380\transformed\jetified-ME_300R_SDK_240723(R)\AndroidManifest.xml:15:5-17:38
+18-->[ME_300R_SDK_240724(R).aar] C:\Users\JiangKun\.gradle\caches\transforms-3\3c860b84cf62732ddf2e020052fdb310\transformed\jetified-ME_300R_SDK_240724(R)\AndroidManifest.xml:15:5-17:38
 19        android:name="android.permission.BLUETOOTH"
-19-->[ME_300R_SDK_240723(R).aar] C:\Users\JiangKun\.gradle\caches\transforms-3\83f7ec706309e937939ae562ffbfc380\transformed\jetified-ME_300R_SDK_240723(R)\AndroidManifest.xml:16:9-52
+19-->[ME_300R_SDK_240724(R).aar] C:\Users\JiangKun\.gradle\caches\transforms-3\3c860b84cf62732ddf2e020052fdb310\transformed\jetified-ME_300R_SDK_240724(R)\AndroidManifest.xml:16:9-52
 20        android:maxSdkVersion="30" />
-20-->[ME_300R_SDK_240723(R).aar] C:\Users\JiangKun\.gradle\caches\transforms-3\83f7ec706309e937939ae562ffbfc380\transformed\jetified-ME_300R_SDK_240723(R)\AndroidManifest.xml:17:9-35
+20-->[ME_300R_SDK_240724(R).aar] C:\Users\JiangKun\.gradle\caches\transforms-3\3c860b84cf62732ddf2e020052fdb310\transformed\jetified-ME_300R_SDK_240724(R)\AndroidManifest.xml:17:9-35
 21    <uses-permission
-21-->[ME_300R_SDK_240723(R).aar] C:\Users\JiangKun\.gradle\caches\transforms-3\83f7ec706309e937939ae562ffbfc380\transformed\jetified-ME_300R_SDK_240723(R)\AndroidManifest.xml:18:5-20:38
+21-->[ME_300R_SDK_240724(R).aar] C:\Users\JiangKun\.gradle\caches\transforms-3\3c860b84cf62732ddf2e020052fdb310\transformed\jetified-ME_300R_SDK_240724(R)\AndroidManifest.xml:18:5-20:38
 22        android:name="android.permission.BLUETOOTH_ADMIN"
-22-->[ME_300R_SDK_240723(R).aar] C:\Users\JiangKun\.gradle\caches\transforms-3\83f7ec706309e937939ae562ffbfc380\transformed\jetified-ME_300R_SDK_240723(R)\AndroidManifest.xml:19:9-58
+22-->[ME_300R_SDK_240724(R).aar] C:\Users\JiangKun\.gradle\caches\transforms-3\3c860b84cf62732ddf2e020052fdb310\transformed\jetified-ME_300R_SDK_240724(R)\AndroidManifest.xml:19:9-58
 23        android:maxSdkVersion="30" />
-23-->[ME_300R_SDK_240723(R).aar] C:\Users\JiangKun\.gradle\caches\transforms-3\83f7ec706309e937939ae562ffbfc380\transformed\jetified-ME_300R_SDK_240723(R)\AndroidManifest.xml:20:9-35
+23-->[ME_300R_SDK_240724(R).aar] C:\Users\JiangKun\.gradle\caches\transforms-3\3c860b84cf62732ddf2e020052fdb310\transformed\jetified-ME_300R_SDK_240724(R)\AndroidManifest.xml:20:9-35
 24    <uses-permission
-24-->[ME_300R_SDK_240723(R).aar] C:\Users\JiangKun\.gradle\caches\transforms-3\83f7ec706309e937939ae562ffbfc380\transformed\jetified-ME_300R_SDK_240723(R)\AndroidManifest.xml:21:5-24:31
+24-->[ME_300R_SDK_240724(R).aar] C:\Users\JiangKun\.gradle\caches\transforms-3\3c860b84cf62732ddf2e020052fdb310\transformed\jetified-ME_300R_SDK_240724(R)\AndroidManifest.xml:21:5-24:31
 25        android:name="android.permission.BLUETOOTH_SCAN"
-25-->[ME_300R_SDK_240723(R).aar] C:\Users\JiangKun\.gradle\caches\transforms-3\83f7ec706309e937939ae562ffbfc380\transformed\jetified-ME_300R_SDK_240723(R)\AndroidManifest.xml:22:9-57
+25-->[ME_300R_SDK_240724(R).aar] C:\Users\JiangKun\.gradle\caches\transforms-3\3c860b84cf62732ddf2e020052fdb310\transformed\jetified-ME_300R_SDK_240724(R)\AndroidManifest.xml:22:9-57
 26        android:usesPermissionFlags="neverForLocation" />
-26-->[ME_300R_SDK_240723(R).aar] C:\Users\JiangKun\.gradle\caches\transforms-3\83f7ec706309e937939ae562ffbfc380\transformed\jetified-ME_300R_SDK_240723(R)\AndroidManifest.xml:23:9-55
+26-->[ME_300R_SDK_240724(R).aar] C:\Users\JiangKun\.gradle\caches\transforms-3\3c860b84cf62732ddf2e020052fdb310\transformed\jetified-ME_300R_SDK_240724(R)\AndroidManifest.xml:23:9-55
 27    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
-27-->[ME_300R_SDK_240723(R).aar] C:\Users\JiangKun\.gradle\caches\transforms-3\83f7ec706309e937939ae562ffbfc380\transformed\jetified-ME_300R_SDK_240723(R)\AndroidManifest.xml:25:5-76
-27-->[ME_300R_SDK_240723(R).aar] C:\Users\JiangKun\.gradle\caches\transforms-3\83f7ec706309e937939ae562ffbfc380\transformed\jetified-ME_300R_SDK_240723(R)\AndroidManifest.xml:25:22-73
+27-->[ME_300R_SDK_240724(R).aar] C:\Users\JiangKun\.gradle\caches\transforms-3\3c860b84cf62732ddf2e020052fdb310\transformed\jetified-ME_300R_SDK_240724(R)\AndroidManifest.xml:25:5-76
+27-->[ME_300R_SDK_240724(R).aar] C:\Users\JiangKun\.gradle\caches\transforms-3\3c860b84cf62732ddf2e020052fdb310\transformed\jetified-ME_300R_SDK_240724(R)\AndroidManifest.xml:25:22-73
 28    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-28-->[ME_300R_SDK_240723(R).aar] C:\Users\JiangKun\.gradle\caches\transforms-3\83f7ec706309e937939ae562ffbfc380\transformed\jetified-ME_300R_SDK_240723(R)\AndroidManifest.xml:26:5-79
-28-->[ME_300R_SDK_240723(R).aar] C:\Users\JiangKun\.gradle\caches\transforms-3\83f7ec706309e937939ae562ffbfc380\transformed\jetified-ME_300R_SDK_240723(R)\AndroidManifest.xml:26:22-76
+28-->[ME_300R_SDK_240724(R).aar] C:\Users\JiangKun\.gradle\caches\transforms-3\3c860b84cf62732ddf2e020052fdb310\transformed\jetified-ME_300R_SDK_240724(R)\AndroidManifest.xml:26:5-79
+28-->[ME_300R_SDK_240724(R).aar] C:\Users\JiangKun\.gradle\caches\transforms-3\3c860b84cf62732ddf2e020052fdb310\transformed\jetified-ME_300R_SDK_240724(R)\AndroidManifest.xml:26:22-76
 29
 30    <queries>
 30-->[com.blankj:utilcodex:1.31.1] C:\Users\JiangKun\.gradle\caches\transforms-3\df73ea5c6fb868c7da62edacfb6d1a42\transformed\jetified-utilcodex-1.31.1\AndroidManifest.xml:9:5-16:15
@@ -149,23 +149,23 @@
 80        </activity>
 81
 82        <service
-82-->[ME_300R_SDK_240723(R).aar] C:\Users\JiangKun\.gradle\caches\transforms-3\83f7ec706309e937939ae562ffbfc380\transformed\jetified-ME_300R_SDK_240723(R)\AndroidManifest.xml:29:9-31:40
+82-->[ME_300R_SDK_240724(R).aar] C:\Users\JiangKun\.gradle\caches\transforms-3\3c860b84cf62732ddf2e020052fdb310\transformed\jetified-ME_300R_SDK_240724(R)\AndroidManifest.xml:29:9-31:40
 83            android:name="com.meferi.btscannersdk.connect.ble.BtLeService"
-83-->[ME_300R_SDK_240723(R).aar] C:\Users\JiangKun\.gradle\caches\transforms-3\83f7ec706309e937939ae562ffbfc380\transformed\jetified-ME_300R_SDK_240723(R)\AndroidManifest.xml:30:13-75
+83-->[ME_300R_SDK_240724(R).aar] C:\Users\JiangKun\.gradle\caches\transforms-3\3c860b84cf62732ddf2e020052fdb310\transformed\jetified-ME_300R_SDK_240724(R)\AndroidManifest.xml:30:13-75
 84            android:exported="false" />
-84-->[ME_300R_SDK_240723(R).aar] C:\Users\JiangKun\.gradle\caches\transforms-3\83f7ec706309e937939ae562ffbfc380\transformed\jetified-ME_300R_SDK_240723(R)\AndroidManifest.xml:31:13-37
+84-->[ME_300R_SDK_240724(R).aar] C:\Users\JiangKun\.gradle\caches\transforms-3\3c860b84cf62732ddf2e020052fdb310\transformed\jetified-ME_300R_SDK_240724(R)\AndroidManifest.xml:31:13-37
 85        <service
-85-->[ME_300R_SDK_240723(R).aar] C:\Users\JiangKun\.gradle\caches\transforms-3\83f7ec706309e937939ae562ffbfc380\transformed\jetified-ME_300R_SDK_240723(R)\AndroidManifest.xml:32:9-34:40
+85-->[ME_300R_SDK_240724(R).aar] C:\Users\JiangKun\.gradle\caches\transforms-3\3c860b84cf62732ddf2e020052fdb310\transformed\jetified-ME_300R_SDK_240724(R)\AndroidManifest.xml:32:9-34:40
 86            android:name="com.meferi.btscannersdk.connect.spp.BtSppService"
-86-->[ME_300R_SDK_240723(R).aar] C:\Users\JiangKun\.gradle\caches\transforms-3\83f7ec706309e937939ae562ffbfc380\transformed\jetified-ME_300R_SDK_240723(R)\AndroidManifest.xml:33:13-76
+86-->[ME_300R_SDK_240724(R).aar] C:\Users\JiangKun\.gradle\caches\transforms-3\3c860b84cf62732ddf2e020052fdb310\transformed\jetified-ME_300R_SDK_240724(R)\AndroidManifest.xml:33:13-76
 87            android:exported="false" />
-87-->[ME_300R_SDK_240723(R).aar] C:\Users\JiangKun\.gradle\caches\transforms-3\83f7ec706309e937939ae562ffbfc380\transformed\jetified-ME_300R_SDK_240723(R)\AndroidManifest.xml:34:13-37
+87-->[ME_300R_SDK_240724(R).aar] C:\Users\JiangKun\.gradle\caches\transforms-3\3c860b84cf62732ddf2e020052fdb310\transformed\jetified-ME_300R_SDK_240724(R)\AndroidManifest.xml:34:13-37
 88        <service
-88-->[ME_300R_SDK_240723(R).aar] C:\Users\JiangKun\.gradle\caches\transforms-3\83f7ec706309e937939ae562ffbfc380\transformed\jetified-ME_300R_SDK_240723(R)\AndroidManifest.xml:35:9-37:40
+88-->[ME_300R_SDK_240724(R).aar] C:\Users\JiangKun\.gradle\caches\transforms-3\3c860b84cf62732ddf2e020052fdb310\transformed\jetified-ME_300R_SDK_240724(R)\AndroidManifest.xml:35:9-37:40
 89            android:name="com.meferi.btscannersdk.connect.spp.BtSppServerService"
-89-->[ME_300R_SDK_240723(R).aar] C:\Users\JiangKun\.gradle\caches\transforms-3\83f7ec706309e937939ae562ffbfc380\transformed\jetified-ME_300R_SDK_240723(R)\AndroidManifest.xml:36:13-82
+89-->[ME_300R_SDK_240724(R).aar] C:\Users\JiangKun\.gradle\caches\transforms-3\3c860b84cf62732ddf2e020052fdb310\transformed\jetified-ME_300R_SDK_240724(R)\AndroidManifest.xml:36:13-82
 90            android:exported="false" />
-90-->[ME_300R_SDK_240723(R).aar] C:\Users\JiangKun\.gradle\caches\transforms-3\83f7ec706309e937939ae562ffbfc380\transformed\jetified-ME_300R_SDK_240723(R)\AndroidManifest.xml:37:13-37
+90-->[ME_300R_SDK_240724(R).aar] C:\Users\JiangKun\.gradle\caches\transforms-3\3c860b84cf62732ddf2e020052fdb310\transformed\jetified-ME_300R_SDK_240724(R)\AndroidManifest.xml:37:13-37
 91
 92        <activity
 92-->[com.blankj:utilcodex:1.31.1] C:\Users\JiangKun\.gradle\caches\transforms-3\df73ea5c6fb868c7da62edacfb6d1a42\transformed\jetified-utilcodex-1.31.1\AndroidManifest.xml:19:9-24:75

@@ -16,8 +16,8 @@ class App : Application() {
 
     private var broadcastReceiver = object : BroadcastReceiver() {
         override fun onReceive(context: Context?, intent: Intent?) {
-            if (intent?.action == "android.intent.action.ME_OUTPUT_ACTION") {
-                val data = intent.getStringExtra("data")
+            if (intent?.action == "android.intent.action.MEF_SR_ACTION") {
+                val data = intent.getStringExtra("raw_data")
                 if (data != null) {
                     Log.e("Received Data", data)
                 }
@@ -38,7 +38,7 @@ class App : Application() {
         Log.e("BroadCast Action:", "${MeScannerSDK.getBroadcastAction()}")
         Log.e("BroadCast ExtName", "${MeScannerSDK.getBroadcastExtName()}")
 
-        val intentFilter = IntentFilter("android.intent.action.ME_OUTPUT_ACTION")
+        val intentFilter = IntentFilter("android.intent.action.MEF_SR_ACTION")
         ContextCompat.registerReceiver(this, broadcastReceiver, intentFilter, ContextCompat.RECEIVER_EXPORTED)
 
 
