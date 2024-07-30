@@ -2,27 +2,24 @@
 
 ## Permissions
 ```xml
-    <uses-feature
-        android:name="android.hardware.bluetooth"
-        android:required="true" />
-    <uses-feature
-        android:name="android.hardware.bluetooth_le"
-        android:required="true" />
-
-    <uses-permission
-        android:name="android.permission.BLUETOOTH"
-        android:maxSdkVersion="30" />
-    <uses-permission
-        android:name="android.permission.BLUETOOTH_ADMIN"
-        android:maxSdkVersion="30" />
-    <uses-permission
-        android:name="android.permission.BLUETOOTH_SCAN"
-        android:usesPermissionFlags="neverForLocation"
-        tools:targetApi="s" />
-
-    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
-
-    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+<uses-feature
+    android:name="android.hardware.bluetooth"
+    android:required="true" />
+<uses-feature
+android:name="android.hardware.bluetooth_le"
+android:required="true" />
+<uses-permission
+android:name="android.permission.BLUETOOTH"
+android:maxSdkVersion="30" />
+<uses-permission
+android:name="android.permission.BLUETOOTH_ADMIN"
+android:maxSdkVersion="30" />
+<uses-permission
+android:name="android.permission.BLUETOOTH_SCAN"
+android:usesPermissionFlags="neverForLocation"
+tools:targetApi="s" />
+<uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 ```
 
 ## Initialization:
