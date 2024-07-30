@@ -1,5 +1,6 @@
 # MeBluScanner
-
+## Download aar
+[ME_300R_SDK_240730(R).aar](https://github.com/merferi/MeBluScanner/blob/master/demo/libs/ME_300R_SDK_240730(R).aar)
 ## Permissions
 ```xml
 <uses-feature
@@ -89,10 +90,10 @@ MeScannerSDK.setCommunicateListener(object : MeCommunicateListener {
 ```
 ## startMeSppServer
 
-__Note:__
-__Start the SPP server after applying for Bluetooth permission.__
+<em><strong>Note: Start the SPP server after applying for Bluetooth permission.</strong></em>
+
+Removed: ~~MeScannerSDK.startMeSppServer()~~
 ```kotlin
-//MeScannerSDK.startMeSppServer() --> Removed
 MeScannerSDK.keepSppServerAlive(true)
 ```
 ## connect
