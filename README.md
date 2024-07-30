@@ -1,7 +1,7 @@
 # MeBluScanner
 
 ## Permissions
-
+```xml
     <uses-feature
         android:name="android.hardware.bluetooth"
         android:required="true" />
@@ -23,119 +23,119 @@
     <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
 
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+```
 
 ## Initialization:
-
-    MeScannerSDK.initialize(application: Application)
-
+```kotlin
+MeScannerSDK.initialize(application: Application)
+```
 ## SetBroadCastCfg
-
-    MeScannerSDK.setBroadCastCfg(action: String, extName: String)
-
-    MeScannerSDK.getBroadCastAction():String
-
-    MeScannerSDK.getBroadCastExtName():String
-
+```kotlin
+MeScannerSDK.setBroadCastCfg(action: String, extName: String)
+MeScannerSDK.getBroadCastAction():String
+MeScannerSDK.getBroadCastExtName():String
+```
 ## getVersion
-
-    MeScannerSDK.getVersion():String
+```kotlin
+MeScannerSDK.getVersion():String
+```
 
 ## setConnectionListener
+```kotlin
+MeScannerSDK.setConnectionListener(object : MeConnectionListener {
+        override fun onConnected(bluetoothDevice: BluetoothDevice, connectMode: ConnectMode) {
 
-    MeScannerSDK.setConnectionListener(object : MeConnectionListener {
+        }
+        override fun onConnectFailure(msg: String) {
 
-            override fun onConnected(bluetoothDevice: BluetoothDevice, connectMode: ConnectMode) {
-            }
+        }
+        override fun onDisconnected() {
 
-            override fun onConnectFailure(msg: String) {
-            }
-
-            override fun onDisconnected() {
-            }
-
-            override fun onConnectionStateChanged(state: Int) {
-              //0:disconnect 1:connecting 2:connected 3:disconnect 4:no_state               
-            }
-        })
+        }
+        override fun onConnectionStateChanged(state: Int) {
+        //0:disconnect 1:connecting 2:connected 3:disconnect 4:no_state               
+        }
+    })
+```
 
 ## setCommunicateListener
+```kotlin
+MeScannerSDK.setCommunicateListener(object : MeCommunicateListener {
 
-     MeScannerSDK.setCommunicateListener(object : MeCommunicateListener {
+        override fun onDecodingData(data: ByteArray) {
+        }
 
-            override fun onDecodingData(data: ByteArray) {
-            }
+        override fun onFirmwareVersion(version: String) {
+        }
 
-            override fun onFirmwareVersion(version: String) {
-            }
+        override fun onBatteryInfo(status: Int, voltage: Int, batteryLevel: Int) {
+        }
 
-            override fun onBatteryInfo(status: Int, voltage: Int, batteryLevel: Int) {
-            }
+        override fun onBuzzerStatus(enable: Boolean) {
+        }
 
-            override fun onBuzzerStatus(enable: Boolean) {
-            }
+        override fun onAutoShutdownTime(duration: Int) {
+        }
 
-            override fun onAutoShutdownTime(duration: Int) {
-            }
+        override fun onTriggerMode(mode: MeTriggerMode) {
+        }
 
-            override fun onTriggerMode(mode: MeTriggerMode) {
-            }
+        override fun onReconnectEnable(enable: Boolean) {
+        }
 
-            override fun onReconnectEnable(enable: Boolean) {
-            }
+        override fun onContinuousScanInterval(interval: Float) {
+        }
 
-            override fun onContinuousScanInterval(interval: Float) {
-            }
-
-            override fun onScanning() {
-            }
-        })
-
+        override fun onScanning() {
+        }
+    })
+```
 ## startMeSppServer
 
 __Note:__
 __Start the SPP server after applying for Bluetooth permission.__
-
-    ~~MeScannerSDK.startMeSppServer()~~
-    
-    MeScannerSDK.keepSppServerAlive(true)
-
+```kotlin
+//MeScannerSDK.startMeSppServer() --> Removed
+MeScannerSDK.keepSppServerAlive(true)
+```
 ## connect
-
-    MeScannerSDK.connect(device: BluetoothDevice, mode: ConnectMode)
-
+```kotlin
+MeScannerSDK.connect(device: BluetoothDevice, mode: ConnectMode)
+```
 ## disconnect
-
-    MeScannerSDK.disconnect()
-
+```kotlin
+MeScannerSDK.disconnect()
+```
 ## other
-
-* firmwareVersion:
-  > MeScannerSDK.getFirmwareVersion()
-* batteryInfo:
-  > MeScannerSDK.getBatteryInfo()
-* doVibrate:
-  > MeScannerSDK.doVibrate()
-* doBuzzer:
-  > MeScannerSDK.doBuzzer(state: MeBuzzerState)
-* getBuzzerStatus:
-  > MeScannerSDK.getBuzzerStatus()
-* setTriggerMode:
-  > MeScannerSDK.setTriggerMode(mode: MeTriggerMode)()
-* setContinuousMode:
-  > MeScannerSDK.setContinuousMode(mode: MeTriggerMode, interval: Float)
-* getContinuousScanInterval
-  > MeScannerSDK.getContinuousScanInterval()
-* doScan:
-  > MeScannerSDK.doScan()
-* controlLed:
-  > MeScannerSDK.(color: MeLedColor)
-* setAutoShutdownTime:
-  > MeScannerSDK.setAutoShutdownTime(status: MeShutdown)
-* getTriggerMode:
-  > MeScannerSDK.getTriggerMode()
-* getReconnectEnable
-  > MeScannerSDK.getReconnectEnable()
-* setReconnect
-  > MeScannerSDK.setReconnect(enable:boolean)
-* resetFactory:
-  > MeScannerSDK.resetFactory()
+```kotlin
+//FirmwareVwesion
+MeScannerSDK.getFirmwareVersion()
+//batteryInfo:
+MeScannerSDK.getBatteryInfo()
+//doVibrate:
+MeScannerSDK.doVibrate()
+//doBuzzer:
+MeScannerSDK.doBuzzer(state: MeBuzzerState)
+//getBuzzerStatus:
+MeScannerSDK.getBuzzerStatus()
+//setTriggerMode:
+MeScannerSDK.setTriggerMode(mode: MeTriggerMode)()
+//setContinuousMode:
+MeScannerSDK.setContinuousMode(mode: MeTriggerMode, interval: Float)
+//getContinuousScanInterval
+MeScannerSDK.getContinuousScanInterval()
+//doScan:
+MeScannerSDK.doScan()
+//controlLed:
+MeScannerSDK.(color: MeLedColor)
+//setAutoShutdownTime:
+MeScannerSDK.setAutoShutdownTime(status: MeShutdown)
+//getTriggerMode:
+MeScannerSDK.getTriggerMode()
+//getReconnectEnable
+MeScannerSDK.getReconnectEnable()
+//setReconnect
+MeScannerSDK.setReconnect(enable:boolean)
+//resetFactory:
+MeScannerSDK.resetFactory()
+```
