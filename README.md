@@ -94,8 +94,8 @@
 
 __Note:__
 __Start the SPP server after applying for Bluetooth permission.__
-
-    MeScannerSDK.startMeSppServer()
+~~MeScannerSDK.startMeSppServer()~~
+``` MeScannerSDK.keepSppServerAlive(true)```
 
 ## connect
 
